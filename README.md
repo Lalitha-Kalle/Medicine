@@ -1,12 +1,29 @@
-# React + Vite
+Clone the repository and install dependencies:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+``` bash
+git clone https://github.com/Lalitha-Kalle/Medicine.git
+cd Medicine
+npm install
+```
 
-Currently, two official plugins are available:
+## ▶️ Running Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Start the development server:
 
-## Expanding the ESLint configuration
+``` bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+in src/firebase.js
+
+after creating your app you must get a config codes you just need to replace with below config 
+
+const firebaseConfig = {
+  apiKey: "your-api-key",
+  authDomain: "your-auth-domain",
+  projectId: "your-id",
+  storageBucket: "your-bucket",
+  messagingSenderId: "your-id",
+  appId: "your-id"
+};
+
